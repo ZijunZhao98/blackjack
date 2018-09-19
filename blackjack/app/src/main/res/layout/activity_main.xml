@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".MainActivity"
+    android:id="@+id/intro_screen"
+    >
+
+    <ImageView
+        android:id="@+id/intro"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/intro"
+        android:contentDescription="@string/introimg" />
+
+    <TextView
+        android:id="@+id/introText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/blackjack"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="58sp" />
+
+</RelativeLayout>

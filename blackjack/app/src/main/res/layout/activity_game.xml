@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".game">
+
+    <ImageView
+        android:id="@+id/dealer_1"
+        android:contentDescription="@string/dealer_card"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/back"
+        android:layout_marginStart="16dp" />
+
+    <ImageView
+        android:id="@+id/dealer_2"
+        android:contentDescription="@string/dealer_card"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginStart="90dp" />
+
+    <ImageView
+        android:id="@+id/dealer_3"
+        android:contentDescription="@string/dealer_card"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="163dp"
+        android:layout_marginStart="163dp" />
+
+    <ImageView
+        android:id="@+id/dealer_4"
+        android:contentDescription="@string/dealer_card"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="237dp"
+        android:layout_marginStart="237dp" />
+
+    <ImageView
+        android:id="@+id/dealer_5"
+        android:contentDescription="@string/dealer_card"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginStart="310dp" />
+
+
+    <Button
+        android:id="@+id/hit_btn"
+        android:text="@string/hit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginStart="80dp" />
+
+    <Button
+        android:id="@+id/pass_btn"
+        android:text="@string/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/hit_btn"
+        android:layout_marginLeft="200dp"
+        android:layout_marginStart="200dp" />
+
+    <Button
+        android:id="@+id/restart_btn"
+        android:text="@string/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginStart="140dp" />
+
+    <TextView
+        android:id="@+id/end_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="30sp"
+        android:layout_marginStart="100dp" />
+
+    <ImageView
+        android:id="@+id/player_1"
+        android:contentDescription="@string/player_card"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+
+    <ImageView
+        android:id="@+id/player_2"
+        android:contentDescription="@string/player_card"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginStart="90dp" />
+
+    <ImageView
+        android:id="@+id/player_3"
+        android:contentDescription="@string/player_card"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="163dp"
+        android:layout_marginStart="163dp" />
+
+    <ImageView
+        android:id="@+id/player_4"
+        android:contentDescription="@string/player_card"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="237dp"
+        android:layout_marginStart="237dp" />
+
+    <ImageView
+        android:id="@+id/player_5"
+        android:contentDescription="@string/player_card"
+        android:layout_width="60dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginStart="310dp" />
+
+</RelativeLayout>
